@@ -1,0 +1,57 @@
+.produto {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  animation: moveRight 0.3s 1 normal forwards;
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+@keyframes moveRight {
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.img {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.preco {
+  padding: 8px;
+  background: rgb(94, 255, 0);
+  color: rgb(1, 150, 1);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.p {
+  margin: 5px 0;
+}
+
+.p::before {
+  content: '__ ';
+  color: rgb(196, 195, 195);
+  position: relative;
+  font-size: 1.25em;
+  bottom: 3px;
+}
+
+.detalhes {
+  padding: 0 32px;
+}
+
+@media (max-width: 701px) {
+  .produto {
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .img {
+    width: 250px;
+  }
+  .detalhes {
+    padding: 0 32px;
+  }
+}

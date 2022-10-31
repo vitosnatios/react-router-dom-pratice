@@ -1,0 +1,13 @@
+.prodImg {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.h2 {
+  margin: 0;
+}
+
+.card {
+  text-decoration: none;
+  color: black;
+}

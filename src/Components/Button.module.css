@@ -1,0 +1,19 @@
+.button {
+  background: rgb(214, 214, 214);
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: none;
+}
+.button:hover {
+  background: rgb(194, 194, 194);
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.h2 {
+  margin: 0;
+}

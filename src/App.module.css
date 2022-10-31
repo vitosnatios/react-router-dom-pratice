@@ -1,0 +1,14 @@
+.app {
+  max-width: 700px;
+  padding: 30px;
+  display: grid;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+@media (max-width: 506px) {
+  .app {
+    justify-items: center;
+    padding: 30px 0;
+  }
+}

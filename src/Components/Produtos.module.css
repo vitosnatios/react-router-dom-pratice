@@ -1,0 +1,22 @@
+.prodContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  justify-content: space-between;
+  gap: 30px;
+  animation: moveLeft 0.3s 1 normal forwards;
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+@keyframes moveLeft {
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 736px) {
+  .prodContainer {
+    justify-content: space-evenly;
+  }
+}
