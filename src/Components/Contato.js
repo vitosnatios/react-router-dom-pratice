@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from './Produto.module.css';
 import img from '../img/contato.jpg';
+import Head from './Head';
 
 const Contato = () => {
   return (
     <div className={styled.produto}>
+      <Head title='Contato' />
       <img className={styled.img} src={img} alt='velharia' />
-      <div>
+      <div style={{ marginLeft: '20px' }}>
         <h3>Entre em contato.</h3>
         <p
           className={styled.p}
