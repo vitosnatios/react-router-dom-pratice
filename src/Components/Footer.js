@@ -31,6 +31,8 @@ const Footer = () => {
           ref={a1Ref}
           href='https://github.com/vitosnatios'
           alt='github'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           github
         </a>
@@ -39,6 +41,8 @@ const Footer = () => {
           ref={a2Ref}
           href='https://www.linkedin.com/in/vitosnatios/'
           alt='linkedin'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           linkedin
         </a>
