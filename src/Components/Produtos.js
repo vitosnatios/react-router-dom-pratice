@@ -3,8 +3,10 @@ import Card from './Card';
 import Head from './Head';
 import Loading from './Loading';
 import styled from './Produtos.module.css';
+import { useGlobalContext } from '../GlobalContext';
 
-const Produtos = ({ produtos }) => {
+const Produtos = () => {
+  const produtos = useGlobalContext();
   if (!produtos.length) {
     return <Loading />;
   } else
