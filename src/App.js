@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import styled from './App.module.css';
 import Produto from './Components/Produto';
 import NotFound404 from './Components/NotFound404';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='contato' element={<Contato />} />
           <Route path='produtos/:id' element={<Produto />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );

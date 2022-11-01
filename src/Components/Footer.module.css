@@ -1,0 +1,19 @@
+.footer {
+  margin: 0 auto;
+}
+
+.p,
+.a {
+  font-family: monospace;
+  transition: color 1s ease-out;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.linksDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
