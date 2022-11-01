@@ -13,3 +13,8 @@
 .h2 {
   margin: 0;
 }
+
+:global(.active) button {
+  border-left: 2px solid #999797;
+  border-right: 2px solid #999797;
+}
